@@ -1,0 +1,82 @@
+*{
+			box-sizing: border-box;
+		}	
+
+		h2{			
+			font-size: 20px;
+			font-family: verdana;	
+			color: #333;
+			margin-bottom: 40px;
+		}
+		
+		.miform{
+			margin: auto;
+			margin-top: 20px;
+			width: 40%;
+			padding: 30px;
+			border: 1px solid #000;
+			background-color: #f4f4f4;
+			border-radius: 20px;
+		}			
+
+			.miform div{
+				margin:auto;
+				width: 80%;
+				/*border:1px solid #ccc;*/
+				display: flex;
+				align-items: center;
+			}
+
+			.miform .requerido{
+				font-size: 14px;
+				font-family: verdana;
+				color:red;		
+				width: 10%;	
+				padding: 10px;	
+			}
+
+			.miform label{
+				font-family: verdana;
+				color: #333;
+				width: 20%;
+				text-align: right;
+				padding-right: 10px;
+				font-weight: bold;
+			}
+
+			.miform .dato{
+				display: block;
+				margin: 10px 0px 10px 0px;	
+				width: 70%;	
+				padding: 10px;
+
+			}		
+
+			.miform .botones{					
+				margin: 10px 0px 0px 0px;
+				width: 100%;				
+				padding: 20px;			
+				justify-content: center;
+			}
+
+				.miform .botones input{							
+					padding: 10px;			
+					margin-right: 20px;
+					background-color: #ccc;
+					font-size: 14px;
+					font-family: verdana;
+				}		
+
+				.miform .botones input:hover{		
+					background-color: #333;
+					color: #fff;
+					cursor: pointer;
+				}	
+
+		.miform .pie{
+			margin-top: 10px;	
+			border-top:1px solid #ccc;		
+			padding: 10px;
+			font-size: 12px;
+			font-family: verdana;					
+		}			
